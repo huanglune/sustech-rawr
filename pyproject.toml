@@ -1,6 +1,6 @@
 [project]
-name = "sustechRAWR"
-version = "1.0.3"
+name = "sustech-rawr"
+version = "1.0.5"
 description = "sustech ra work record"
 license = "Apache-2.0"
 readme = "README.md"
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [project.scripts]
-sustechrawr = "sustechra_record.main:run"
+sustech-rawr = "sustech_rawr.main:run"
 
 [tool.uv]
 package = true

@@ -158,8 +158,8 @@ wheels = [
 ]
 
 [[package]]
-name = "sustechrawr"
-version = "1.0.1"
+name = "sustech-rawr"
+version = "1.0.4"
 source = { editable = "." }
 dependencies = [
     { name = "get-holiday-cn" },

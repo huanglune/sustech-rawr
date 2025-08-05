@@ -1,4 +1,4 @@
-# SUSTech Work Record Generator (sustechRAWR)
+# SUSTech Work Record Generator (sustech-rawr)
 
 A Python tool that automatically generates work record tables for Southern University of Science and Technology (SUSTech), with intelligent holiday detection and standard Excel format output.
 
@@ -15,7 +15,7 @@ A Python tool that automatically generates work record tables for Southern Unive
 ### Command Line Usage
 
 ```bash
-uvx sustechRAWR -n "张三" -w "数据库" -y 2025 -m 8
+uvx sustech-rawr -n "张三" -w "数据库" -y 2025 -m 8
 ```
 ![image-20250805140600427](https://my-img-typora.oss-cn-chengdu.aliyuncs.com/img/image-20250805140600427.png)
 
@@ -73,7 +73,7 @@ cd sustechRAWR
 # sync the requirments
 uv sync
 
-uv run src/sustechra_record/main.py -n ...
+uv run src/sustech_rawr/main.py -n ...
 ```
 
 ### Code Structure
