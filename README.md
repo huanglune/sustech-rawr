@@ -14,18 +14,11 @@ A Python tool that automatically generates work record tables for Southern Unive
 
 ### Command Line Usage
 
-After installation, you can use the `sustechRAWR` command directly:
-
 ```bash
-# Basic usage
-uvx sustechRAWR -n "John Doe" -w "Machine learning model training"
-
-# Specify year and month
-uvx sustechRAWR -n "Jane Smith" -w "Data visualization development" -y 2024 -m 12
-
-# Custom time and output file
-uvx sustechRAWR -n "Bob Wilson" -w "System optimization" -t "8:30-17:30" -o "work_record_2024_12.xlsx"
+uvx sustechRAWR -n "张三" -w "数据库" -y 2025 -m 8
 ```
+![image-20250805140600427](https://my-img-typora.oss-cn-chengdu.aliyuncs.com/img/image-20250805140600427.png)
+
 
 ### Parameters
 
@@ -74,14 +67,13 @@ sustechRAWR/
 
 ```bash
 # Clone the project
-git clone <project-url>
+git clone https://github.com/huanglune/sustechRAWR.git
 cd sustechRAWR
 
-# Install development dependencies
-uv install --dev
+# sync the requirments
+uv sync
 
-# Run the program (development mode)
-python -m sustechra_record.main -n "Test User" -w "Test Work"
+uv run src/sustechra_record/main.py -n ...
 ```
 
 ### Code Structure
